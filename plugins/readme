@@ -1,0 +1,112 @@
+------------------------------------------------
+https://github.com
+------------------------------------------------
+|neocomplete|
+(A)- Shougo
+(W)- https://github.com/Shougo/neocomplete.vim
+
+|nerdtree|
+(A)- scrooloose
+(V)- 5.0.0
+(W)- https://github.com/scrooloose/nerdtree
+
+|MiniBufExpl|
+(A)- fholgado
+(V)- 6.5.2
+(W)- https://github.com/fholgado/minibufexpl.vim
+
+|tagbar|
+(A)- majutsushi
+(W)- https://github.com/majutsushi/tagbar
+
+|undotree|
+(A)- mbbill
+(W)- https://github.com/mbbill/undotree
+
+|fencview|
+(A)- mbbill
+(W)- https://github.com/mbbill/fencview
+
+|ctrlp|
+(A)- kien
+(W)- https://github.com/ctrlpvim/ctrlp.vim
+
+|ctrlsf|
+(A)- dyng
+(W)- https://github.com/dyng/ctrlsf.vim
+
+|fzf|
+(A)- junegunn
+(W)- https://github.com/junegunn/fzf.vim
+
+|vim-easy-align|
+(A)- junegunn
+(W)- https://github.com/junegunn/vim-easy-align
+
+|vim-easymotion|
+(A)- Lokaltog & haya14busa
+(W)- https://github.com/easymotion/vim-easymotion
+
+|vim-schlepp|
+(A)- zirrostig
+(W)- https://github.com/zirrostig/vim-schlepp
+
+|vim-colorschemes|
+(A)- flazz
+(W)- https://github.com/flazz/vim-colorschemes
+
+------------------------------------------------
+http://www.vim.org
+------------------------------------------------
+|perl-support|
+(A)- Fritz Mehner
+(V)- 5.3.2
+(W)- http://www.vim.org/scripts/script.php?script_id=556
+5.4
+
+|showmarks|
+(A)- Anthony Kruize
+(V)- 2.2
+(W)- http://www.vim.org/scripts/script.php?script_id=152
+
+|bufpos|
+(A)- Michele Campeotto
+(V)- 1.0
+(W)- http://www.vim.org/scripts/script.php?script_id=1836
+
+|BufferGrep|
+(A)- Michael Geddes
+(V)- 0.3
+(W)- http://vim.sourceforge.net/scripts/script.php?script_id=2545
+
+|vis|
+(A)- Charles Campbell
+(V)- 20
+(W)- https://github.com/vim-scripts/vis
+
+------------------------------------------------
+http://vim.wikia.com
+------------------------------------------------
+Highlight multiple words~
+(W)- http://vim.wikia.com/wiki/Highlight_multiple_words
+
+================================================================================
+
+> find -name '*~'
+    ./ctrlsf.vim-master/autoload/ctrlsf/backend.vim~
+    ./ctrlsf.vim-master/autoload/ctrlsf/win.vim~
+    ./minibufexpl.vim-6.5.2/plugin/minibufexpl.vim~
+    ./nerdtree-5.0.0/lib/nerdtree/creator.vim~
+    ./perl-support_5.3.2/perl-support/templates/comments.templates~
+    ./perl-support_5.3.2/perl-support/templates/Templates~
+    ./perl-support_5.3.2/plugin/perl-support.vim~
+    ./tagbar-master/autoload/tagbar.vim~
+    ./vim-schlepp-master/plugin/schlepp.vim~
+    ./vim.wikia.com/plugin/highlights.vim~
+    ./vis-20/autoload/vis.vim~
+    ./vis-20/plugin/visPlugin.vim~
+    ./www.vim.org/plugin/bufgrep.vim~
+    ./www.vim.org/plugin/bufpos.vim~
+    ./www.vim.org/plugin/showmarks.vim~
+
+vim:ft=help
