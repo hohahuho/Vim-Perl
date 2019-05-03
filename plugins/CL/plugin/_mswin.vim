@@ -1,7 +1,7 @@
 " NOTE: Set options and add mapping such that Vim behaves a lot like MS-Windows
 
 if exists('g:CL_mswin')
-    finish
+  finish
 endif
 let g:CL_mswin = 1
 
@@ -71,9 +71,6 @@ inoremap <C-S-Insert>   <C-R><C-O>*
 snoremap <C-S-Insert>   <C-O>s<C-R><C-O>*
 xnoremap <C-S-Insert>   s<C-R><C-O>*
 
-" Switch fullscreen / normal size
-nnoremap <C-F11> :call libcallnr("gvimfullscreen.dll","ToggleFullScreen",0)<CR>
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Enable mouse use in all modes
@@ -87,4 +84,29 @@ inoremap <M-LeftDrag>   <LeftDrag>
 
 " Press right mouse button to switch back Visual mode
 snoremap <RightMouse>   <C-G>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" NOTE: https://github.com/derekmcloughlin/gvimfullscreen_win32
+
+" Switch fullscreen / normal size
+nnoremap <C-F11> :call libcallnr("gvimfullscreen.dll","ToggleFullScreen",0)<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" NOTE: https://github.com/gabr/FixGVimBorder
+
+" GVim settings only
+if has("gui_running")
+  if $VIM_FULLSCREEN_DLL_FIX
+  else
+    let $VIM_FULLSCREEN_DLL_FIX = 1
+    " auto detects background color and uses it on the border
+    " this works most of the time
+    "autocmd GUIEnter * call libcall("loadfixgvimborder.dll", "LoadFixGVimBorder", 0)
+    " permanent solution - setup border color by hand using hex format
+    " this is recomended solution
+    autocmd GUIEnter * call libcall("loadfixgvimborder.dll", "LoadFixGVimBorder", "#000000")
+  endif
+endif
 

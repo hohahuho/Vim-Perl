@@ -140,6 +140,7 @@
 'showmarks_include'	..\..\www.vim.org\doc\showmarks.txt	/*'showmarks_include'*
 'showmarks_textother'	..\..\www.vim.org\doc\showmarks.txt	/*'showmarks_textother'*
 'showmarks_textupper'	..\..\www.vim.org\doc\showmarks.txt	/*'showmarks_textupper'*
+:AnsiEsc	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*:AnsiEsc*
 :CMiniBufExplorer	..\..\minibufexpl.vim-6.5.2\doc\minibufexpl.txt	/*:CMiniBufExplorer*
 :CtrlP	..\..\ctrlp.vim-master\doc\ctrlp.txt	/*:CtrlP*
 :CtrlPBookmarkDir	..\..\ctrlp.vim-master\doc\ctrlp.txt	/*:CtrlPBookmarkDir*
@@ -312,6 +313,13 @@
 <Plug>(easymotion-{find}n)	..\..\vim-easymotion-master\doc\easymotion.txt	/*<Plug>(easymotion-{find}n)*
 <Plug>(neocomplete_start_quick_match)	..\..\neocomplete.vim-master\doc\neocomplete.txt	/*<Plug>(neocomplete_start_quick_match)*
 <Plug>(neocomplete_start_unite_complete)	..\..\neocomplete.vim-master\doc\neocomplete.txt	/*<Plug>(neocomplete_start_unite_complete)*
+AnsiEsc	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*AnsiEsc*
+AnsiEsc-Method	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*AnsiEsc-Method*
+AnsiEsc-contents	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*AnsiEsc-contents*
+AnsiEsc-copyright	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*AnsiEsc-copyright*
+AnsiEsc-history	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*AnsiEsc-history*
+AnsiEsc-manual	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*AnsiEsc-manual*
+AnsiEsc.txt	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*AnsiEsc.txt*
 ClearAllCtrlPCaches	..\..\ctrlp.vim-master\doc\ctrlp.txt	/*ClearAllCtrlPCaches*
 ClearCtrlPCache	..\..\ctrlp.vim-master\doc\ctrlp.txt	/*ClearCtrlPCache*
 ControlP	..\..\ctrlp.vim-master\doc\ctrlp.txt	/*ControlP*
@@ -645,6 +653,10 @@ g:Schlepp#dupTrimWS	..\..\vim-schlepp-master\doc\schlepp.txt	/*g:Schlepp#dupTrim
 g:Schlepp#reindent	..\..\vim-schlepp-master\doc\schlepp.txt	/*g:Schlepp#reindent*
 g:Schlepp#trimWS	..\..\vim-schlepp-master\doc\schlepp.txt	/*g:Schlepp#trimWS*
 g:Schlepp#useShiftWidthLines	..\..\vim-schlepp-master\doc\schlepp.txt	/*g:Schlepp#useShiftWidthLines*
+g:ansiBold	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*g:ansiBold*
+g:ansiItalic	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*g:ansiItalic*
+g:ansiNone	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*g:ansiNone*
+g:ansiUnderline	..\..\AnsiEsc-master\doc\AnsiEsc.txt	/*g:ansiUnderline*
 g:ctrlp_dont_split	..\..\ctrlp.vim-master\doc\ctrlp.txt	/*g:ctrlp_dont_split*
 g:ctrlp_dotfiles	..\..\ctrlp.vim-master\doc\ctrlp.txt	/*g:ctrlp_dotfiles*
 g:ctrlp_highlight_match	..\..\ctrlp.vim-master\doc\ctrlp.txt	/*g:ctrlp_highlight_match*
