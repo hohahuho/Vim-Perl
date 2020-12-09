@@ -92,21 +92,3 @@ snoremap <RightMouse>   <C-G>
 " Switch fullscreen / normal size
 nnoremap <C-F11> :call libcallnr("gvimfullscreen.dll","ToggleFullScreen",0)<CR>
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" NOTE: https://github.com/gabr/FixGVimBorder
-
-" GVim settings only
-if has("gui_running")
-  if $VIM_FULLSCREEN_DLL_FIX
-  else
-    let $VIM_FULLSCREEN_DLL_FIX = 1
-    " auto detects background color and uses it on the border
-    " this works most of the time
-    "autocmd GUIEnter * call libcall("loadfixgvimborder.dll", "LoadFixGVimBorder", 0)
-    " permanent solution - setup border color by hand using hex format
-    " this is recomended solution
-    autocmd GUIEnter * call libcall("loadfixgvimborder.dll", "LoadFixGVimBorder", "#000000")
-  endif
-endif
-

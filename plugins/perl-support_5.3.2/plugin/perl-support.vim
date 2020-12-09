@@ -1007,7 +1007,7 @@ function! Perl_SyntaxCheck ()
 	"
 	" Errorformat from compiler/perl.vim (VIM distribution).
 	"
-	exe ':set makeprg='.s:Perl_Perl.'\ -cW'
+	exe ':set makeprg='.s:Perl_Perl.'\ -cw'
 	exe ':set errorformat=
 				\%-G%.%#had\ compilation\ errors.,
 				\%-G%.%#syntax\ OK,

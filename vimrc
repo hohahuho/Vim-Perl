@@ -1,4 +1,5 @@
 let skip_defaults_vim=1
+set diffopt-=closeoff
 
 for s:path in split(glob($VIM.'/plugins/*'), '\n')
   if isdirectory(s:path)
@@ -24,6 +25,7 @@ set guifontwide =MingLiU:h11
 set encoding    =utf-8
 set t_Co        =256
 
+set lazyredraw
 set laststatus  =2
 set statusline  =%<\ %F\ %r%m\ %=\ %y\ [%{&ff}]\ \ "
 
